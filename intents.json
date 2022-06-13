@@ -1,5 +1,5 @@
 {"intents": [
-    {"tag": "saudação",
+    {"tag": "saudacao",
         "patterns": ["Olá!!", "Como você está?", "Tem alguém aí?","Oi","Oie", "Alô"],
         "responses": ["Olá!!, obrigado por perguntar.", "Que bom ver você novamente.","Olá, como posso ajudar?"]
     },
@@ -33,7 +33,7 @@
                      "Você pode gravar um vídeo para postar num site da rede social"]
     },
    
-    {"tag": "cozinhar",
+    {"tag": "culinaria",
             "patterns": ["Eu gosto de cozinhar", "Eu gosto de assar", "comer pizza", "cozinhar", "comida"],
             "responses": ["Você pode tentar fazer um bolo hoje!","Você pode assar uma pizza hoje"]},
      
