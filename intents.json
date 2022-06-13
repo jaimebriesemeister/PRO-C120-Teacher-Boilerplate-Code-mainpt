@@ -1,45 +1,45 @@
 {"intents": [
     {"tag": "saudacao",
-        "patterns": ["Olá!!", "Como você está?", "Tem alguém aí?","Oi","Oie", "Alô"],
-        "responses": ["Olá!!, obrigado por perguntar.", "Que bom ver você novamente.","Olá, como posso ajudar?"]
+        "patterns": ["Ola!!", "Como você esta?", "Tem alguem aí?","Oi","Oie", "Alo"],
+        "responses": ["Ola!!, obrigado por perguntar.", "Que bom ver você novamente.","Ola, como posso ajudar?"]
     },
     {"tag": "despedida",
-        "patterns": ["Tchau", "Nos vemos depois", "Adeus", "Foi bom falar com você, tchau","Até a próxima"],
-        "responses": ["Nos vemos!", "Tenha um ótimo dia", "Tchau! Volte logo."] 
+        "patterns": ["Tchau", "Nos vemos depois", "Adeus", "Foi bom falar com voce, tchau","Ate a proxima"],
+        "responses": ["Nos vemos!", "Tenha um otimo dia", "Tchau! Volte logo."] 
     },
     {"tag": "agradecimento",
-        "patterns": ["Obrigado!", "Muito obrigado.", "Isso foi útil", "Maravilha, obrigado!", "Obrigado por me ajudar!"],
+        "patterns": ["Obrigado!", "Muito obrigado.", "Isso foi util", "Maravilha, obrigado!", "Obrigado por me ajudar!"],
         "responses": ["Fico feliz em ajudar!", "Sempre que precisar", "Foi um prazer."]
     },
     {"tag": "sem_resposta",
         "patterns": [""],
-        "responses": ["Desculpe, não consegui entender você.", "Por favor dê-me mais informações.", "Acho que não entendi."]
+        "responses": ["Desculpe, nao consegui entender você.", "Por favor de-me mais informacoes.", "Acho que nao entendi."]
     },
     {"tag": "opcoes",
-     "patterns": ["Estou entediado hoje!", "O que você pode fazer?",
-                "Não sei o que fazer", "Que ajuda você oferece?",
-                "Como você pode ser útil?", "Que suporte é oferecido"],
-     "responses": ["Posso orientar você em uma atividade para passar o dia. Qual é o seu hobby?",
-                   "Podemos planejar uma atividade diária. O que você gostaria de fazer?"]
+     "patterns": ["Estou entediado hoje!", "O que voce pode fazer?",
+                "Não sei o que fazer", "Que ajuda voce oferece?",
+                "Como você pode ser util?", "Que suporte e oferecido"],
+     "responses": ["Posso orientar voce em uma atividade para passar o dia. Qual e o seu hobby?",
+                   "Podemos planejar uma atividade diaria. O que voce gostaria de fazer?"]
     },
     {"tag": "arte",
-        "patterns": ["Eu gosto de arte", "Eu gosto de artesanato", "arte e artesanato", "desenho", "retrato?", "pintura"],
-        "responses": ["Você pode desenhar uma arte geométrica e colori-la!!","Você pode esboçar um cenário hoje.",
+        "patterns": ["Gosto de arte", "Gosto de artesanato", "arte e artesanato", "desenho", "retrato", "pintura"],
+        "responses": ["Voce pode desenhar uma arte geometrica e colori-la!!","Você pode esbocar um cenario hoje.",
                       "Experimente a arte da Mandala pontilhada hoje!"]
     },
     {"tag": "musica",
-        "patterns": ["Eu gosto de música", "Eu gosto de canções", "canções e música", "pop"],
-        "responses": ["você pode ouvir músicas na rádio FM",
-                     "Você pode gravar um vídeo para postar num site da rede social"]
+        "patterns": ["Eu gosto de musica", "Eu gosto de cancoes", "cancoes e musica", "pop"],
+        "responses": ["Voce pode ouvir musicas na radio FM",
+                     "Voce pode gravar um video para postar num site da rede social"]
     },
    
-    {"tag": "culinaria",
+    {"tag": "cozinhar",
             "patterns": ["Eu gosto de cozinhar", "Eu gosto de assar", "comer pizza", "cozinhar", "comida"],
             "responses": ["Você pode tentar fazer um bolo hoje!","Você pode assar uma pizza hoje"]},
      
     {"tag": "fitness",
         "patterns": ["Gosto de fazer exercícios", "Gosto de aeróbica", "exercício"],
-        "responses": ["Você pode tentar dançar zumba hoje!","Você pode tentar pilates hoje"]},
+        "responses": ["Você pode tentar dancar zumba hoje!","Você pode tentar pilates hoje"]},
 
     {"tag": "viagem",
         "patterns": ["Gosto de viajar", "Gosto de explorar lugares diferentes", "viajar"],
