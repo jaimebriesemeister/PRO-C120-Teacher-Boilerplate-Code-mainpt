@@ -23,12 +23,12 @@
                    "Podemos planejar uma atividade diária. O que você gostaria de fazer?"]
     },
     {"tag": "arte",
-        "patterns": ["Gosto de arte", "Gosto de artesanato", "arte e artesanato", "desenho", "retrato?", "pintura"],
+        "patterns": ["Eu gosto de arte", "Eu gosto de artesanato", "arte e artesanato", "desenho", "retrato?", "pintura"],
         "responses": ["Você pode desenhar uma arte geométrica e colori-la!!","Você pode esboçar um cenário hoje.",
                       "Experimente a arte da Mandala pontilhada hoje!"]
     },
     {"tag": "musica",
-        "patterns": ["Eu gosto de música", "Eu gosto de músicas", "canções e música", "pop"],
+        "patterns": ["Eu gosto de música", "Eu gosto de canções", "canções e música", "pop"],
         "responses": ["você pode ouvir músicas na rádio FM",
                      "Você pode gravar um vídeo para postar num site da rede social"]
     },
