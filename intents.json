@@ -1,7 +1,7 @@
 {"intents": [
     {"tag": "saudacao",
-        "patterns": ["Ola!!", "Como você esta?", "Tem alguem aí?","Oi","Oie", "Alo"],
-        "responses": ["Ola!!, obrigado por perguntar.", "Que bom ver você novamente.","Ola, como posso ajudar?"]
+        "patterns": ["Ola!!", "Como voce esta?", "Tem alguem ai?","Oi","Oie", "Alo"],
+        "responses": ["Ola!!, obrigado por perguntar.", "Que bom ver voce novamente.","Ola, como posso ajudar?"]
     },
     {"tag": "despedida",
         "patterns": ["Tchau", "Nos vemos depois", "Adeus", "Foi bom falar com voce, tchau","Ate a proxima"],
@@ -13,18 +13,18 @@
     },
     {"tag": "sem_resposta",
         "patterns": [""],
-        "responses": ["Desculpe, nao consegui entender você.", "Por favor de-me mais informacoes.", "Acho que nao entendi."]
+        "responses": ["Desculpe, nao consegui entender voce.", "Por favor de-me mais informacoes.", "Acho que nao entendi."]
     },
     {"tag": "opcoes",
      "patterns": ["Estou entediado hoje!", "O que voce pode fazer?",
-                "Não sei o que fazer", "Que ajuda voce oferece?",
-                "Como você pode ser util?", "Que suporte e oferecido"],
+                "Nao sei o que fazer", "Que ajuda voce oferece?",
+                "Como voce pode ser util?", "Que suporte e oferecido"],
      "responses": ["Posso orientar voce em uma atividade para passar o dia. Qual e o seu hobby?",
                    "Podemos planejar uma atividade diaria. O que voce gostaria de fazer?"]
     },
     {"tag": "arte",
         "patterns": ["Gosto de arte", "Gosto de artesanato", "arte e artesanato", "desenho", "retrato", "pintura"],
-        "responses": ["Voce pode desenhar uma arte geometrica e colori-la!!","Você pode esbocar um cenario hoje.",
+        "responses": ["Voce pode desenhar uma arte geometrica e colori-la!!","Voce pode esbocar um cenario hoje.",
                       "Experimente a arte da Mandala pontilhada hoje!"]
     },
     {"tag": "musica",
@@ -33,16 +33,16 @@
                      "Voce pode gravar um video para postar num site da rede social"]
     },
    
-    {"tag": "cozinhar",
+    {"tag": "culinaria",
             "patterns": ["Eu gosto de cozinhar", "Eu gosto de assar", "comer pizza", "cozinhar", "comida"],
-            "responses": ["Você pode tentar fazer um bolo hoje!","Você pode assar uma pizza hoje"]},
+            "responses": ["Voce pode tentar fazer um bolo hoje!","Voce pode assar uma pizza hoje"]},
      
     {"tag": "fitness",
-        "patterns": ["Gosto de fazer exercícios", "Gosto de aeróbica", "exercício"],
-        "responses": ["Você pode tentar dancar zumba hoje!","Você pode tentar pilates hoje"]},
+        "patterns": ["Gosto de fazer exercicios", "Gosto de aerobica", "exercicio"],
+        "responses": ["Voce pode tentar dancar zumba hoje!","Voce pode tentar pilates hoje"]},
 
     {"tag": "viagem",
         "patterns": ["Gosto de viajar", "Gosto de explorar lugares diferentes", "viajar"],
-        "responses": ["Você pode visitar um zoológico hoje!","Você pode visitar um parque de diversões hoje"]}         
+        "responses": ["Voce pode visitar um zoológico hoje!","Voce pode visitar um parque de diversoes hoje"]}         
 ]}
 
